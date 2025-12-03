@@ -319,12 +319,12 @@ export const skillsData = [
     image: "/images/th.png",
     percent: "57%",
   },
-  {
-    id: 8,
-    title: "Next js",
-    image: "/images/nx.png",
-    percent: "45%",
-  },
+  // {
+  //   id: 8,
+  //   title: "Next js",
+  //   image: "/images/nx.png",
+  //   percent: "45%",
+  // },
 
   {
     id: 10,
@@ -346,12 +346,7 @@ export const skillsData = [
     percent: "78%",
   },
 
-  {
-    id: 15,
-    title: "Java",
-    image: "/images/SKILL/IMG/JAVA.png",
-    percent: "30%",
-  },
+ 
   {
     id: 16,
     title: "Git",
@@ -364,12 +359,12 @@ export const skillsData = [
     image: "/images/SKILL/IMG/PYTHON.png",
     percent: "42%",
   },
-  {
-    id: 19,
-    title: "Wordpress",
-    image: "/images/SKILL/IMG/WORDPRESS.png",
-    percent: "29%",
-  },
+  // {
+  //   id: 19,
+  //   title: "Wordpress",
+  //   image: "/images/SKILL/IMG/WORDPRESS.png",
+  //   percent: "29%",
+  // },
   {
     id: 20,
     title: "Sql Server",
