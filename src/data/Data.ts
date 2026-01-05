@@ -26,14 +26,14 @@ export const servicesData = [
   {
     id: 2,
     title: " Web Backend",
-    description: "node express php laravel mysql mongol db",
-    icon: "/images/s2.png",
+    description: " php laravel mysql ",
+    icon: "/images/s3.png",
   },
   {
     id: 3,
-    title: "API Integration",
-    description: "express laravel",
-    icon: "/images/s3.png",
+    title: "Ux Ui design",
+    description: "figma",
+    icon: "/images/s2.png",
   },
   {
     id: 4,
@@ -49,6 +49,7 @@ export const phpProject = [
   //   title: "University-blog",
   //   des: "PHP ",
   //   url: "https://github.com/trythaihong/php-universily-blog",
+  //     live:"http://food2026.liveblog365.com"
   // },
   {
     id: 2,
@@ -56,6 +57,7 @@ export const phpProject = [
     title: "blog webiste",
     des: "PHP ",
     url: "https://github.com/trythaihong/php-blog",
+    live:"http://laravelvelvel.wuaze.com/"
   },
   {
     id: 3,
@@ -63,27 +65,31 @@ export const phpProject = [
     title: "Book-ecm",
     des: "PHP ",
     url: "https://github.com/trythaihong/php-bookecm",
+     live:"https://ecm1laravelphp.page.gd/"
   },
-  // {
-  //   id: 4,
-  //   image: "/images/img/ecm.png",
-  //   title: "Ecm",
-  //   des: "PHP ",
-  //   url: "https://github.com/trythaihong/php-ecm",
-  // },
-  // {
-  //   id: 5,
-  //   image: "/images/img/employee.png",
-  //   title: "Employee",
-  //   des: "PHP ",
-  //   url: "https://github.com/trythaihong/php-emlpoyee-mng",
-  // },
+  {
+    id: 4,
+    image: "/images/img/ecm.png",
+    title: "Ecm",
+    des: "PHP ",
+    url: "https://github.com/trythaihong/php-ecm",
+   live:"http://ecomousphp.infinityfree.me/"
+  },
+  {
+    id: 5,
+    image: "/images/img/hopital.png",
+    title: "Hospital",
+    des: "PHP ",
+    url: "https://github.com/trythaihong/hdms",
+   live:"https://hospitallive.kesug.com/?i=1"
+  },
   {
     id: 6,
     image: "/images/img/food.png",
     title: "Food-ecm",
     des: "PHP ",
     url: "https://github.com/trythaihong/php-food",
+     live:"http://food2026.liveblog365.com"
   },
   {
     id: 7,
@@ -91,92 +97,83 @@ export const phpProject = [
     title: "School-mng",
     des: "PHP ",
     url: "https://github.com/trythaihong/php-scroll-mng",
+     live:"http://schoolmngphp.infinityfreeapp.com/"
   },
-  // {
-  //   id: 8,
-  //   image: "/images/img/pofo.png",
-  //   title: "portfolio",
-  //   des: "PHP ",
-  //   url: "https://github.com/trythaihong/php-pofo",
-  // },
+  {
+    id: 8,
+    image: "/images/img/new.png",
+    title: "news portal",
+    des: "PHP ",
+    url: "https://github.com/trythaihong/newnewnewphp",
+   live:"https://hospitallivephp.infinityfreeapp.com/"
+  },
 ];
 export const projectDynamic = [
-  {
+   {
     id: 1,
-    image: "/images/dynamicweb/restarant.png",
-    title: "Restaurant",
+    image: "/images/dynamicweb/ecm3-lara.png",
+    title: "ECM",
     des: "Laravel + Bootstrap",
-    url: "https://github.com/trythaihong/restaurant-laravel",
+    url: "https://github.com/trythaihong/ecm3-laravel",
+    livedemo:"https://laravellaravelphp.liveblog365.com"
   },
   {
     id: 2,
+    image: "/images/dynamicweb/library.png",
+    title: "Library",
+    des: "Laravel + Bootstrap",
+    url: "https://github.com/trythaihong/library-laravel",
+    livedemo:""
+  },   
+  {
+    id: 3,
     image: "/images/dynamicweb/hotel.png",
     title: "Hotel",
     des: "Laravel + Bootstrap",
     url: "https://github.com/trythaihong/hotel-laravel",
-  },
-  {
-    id: 3,
-    image: "/images/dynamicweb/hospital.png",
-    title: "Hospital",
-    des: "Laravel + Bootstrap",
-    url: "https://github.com/trythaihong/hospital-laravel",
-  },
-  {
-    id: 4,
-    image: "/images/dynamicweb/ecm-larrra.png",
-    title: "ECM",
-    des: "Laravel + Bootstrap",
-    url: "https://github.com/trythaihong/ecm1-laravel",
+    livedemo:""
   },
   // {
-  //   id: 5,
-  //   image: "/images/dynamicweb/ecm1-lara.png",
+  //   id: 4,
+  //   image: "/images/dynamicweb/ecm-larrra.png",
   //   title: "ECM",
   //   des: "Laravel + Bootstrap",
-  //   url: "https://github.com/trythaihong/ecm2-laravel",
+  //   url: "https://github.com/trythaihong/ecm1-laravel",
+  //   livedemo:""
   // },
   // {
-  //   id: 6,
-  //   image: "/images/dynamicweb/blog.png",
-  //   title: "BLOG",
-  //   des: "Laravel + Bootstrap",
-  //   url: "https://github.com/trythaihong/blog-laravel",
-  // },
-  // {
-  //   id: 7,
-  //   image: "/images/dynamicweb/library.png",
-  //   title: "Library",
-  //   des: "Laravel + Bootstrap",
-  //   url: "https://github.com/trythaihong/library-laravel",
-  // },
-  // {
-  //   id: 8,
-  //   image: "/images/dynamicweb/hair.png",
-  //   title: "Hair Shop",
-  //   des: "Laravel + Bootstrap",
-  //   url: "https://github.com/trythaihong/laravel-hairstore",
-  // },
-  // {
-  //   id: 9,
-  //   image: "/images/dynamicweb/ecm3-lara.png",
-  //   title: "ECM",
-  //   des: "Laravel + Bootstrap",
-  //   url: "https://github.com/trythaihong/ecm3-laravel",
-  // },
-  // {
-  //   id: 10,
-  //   image: "/images/dynamicweb/valenteer.png",
-  //   title: "Volunteer",
-  //   des: "Laravel + Bootstrap",
-  //   url: "https://github.com/trythaihong/valentter-laravel",
-  // },
+    //   id: 5,
+    //   image: "/images/dynamicweb/ecm1-lara.png",
+    //   title: "ECM",
+    //   des: "Laravel + Bootstrap",
+    //   url: "https://github.com/trythaihong/ecm2-laravel",
+    // livedemo:""
+    // },
+   
+        // {
+          //   id: 8,
+          //   image: "/images/dynamicweb/hair.png",
+          //   title: "Hair Shop",
+          //   des: "Laravel + Bootstrap",
+          //   url: "https://github.com/trythaihong/laravel-hairstore",
+          // livedemo:""
+          // },
+ 
+  {
+    id: 10,
+    image: "/images/dynamicweb/valenteer.png",
+    title: "Volunteer",
+    des: "Laravel + Bootstrap",
+    url: "https://github.com/trythaihong/valentter-laravel",
+  livedemo:""
+  },
   // {
   //   id: 11,
   //   image: "/images/dynamicweb/ecm4-lara.png",
   //   title: "ECM",
   //   des: "Laravel + Bootstrap",
   //   url: "https://github.com/trythaihong/ecm4-laravel",
+  // livedemo:""
   // },
   // {
   //   id: 12,
@@ -184,6 +181,7 @@ export const projectDynamic = [
   //   title: "Constuction Web",
   //   des: "React + Laravel",
   //   url: "https://github.com/trythaihong/react-laravel",
+  // livedemo:""
   // },
   // {
   //   id: 13,
@@ -191,6 +189,7 @@ export const projectDynamic = [
   //   title: "Gym Web",
   //   des: "React + Laravel",
   //   url: "https://github.com/trythaihong/react-laravel-2",
+  // livedemo:""
   // },
 ];
 
@@ -311,7 +310,7 @@ export const skillsData = [
     id: 6,
     title: "React",
     image: "/images/react.svg",
-    percent: "80%",
+    percent: "70%",
   },
   {
     id: 7,
@@ -319,18 +318,18 @@ export const skillsData = [
     image: "/images/th.png",
     percent: "57%",
   },
-  // {
-  //   id: 8,
-  //   title: "Next js",
-  //   image: "/images/nx.png",
-  //   percent: "45%",
-  // },
+  {
+    id: 8,
+    title: "Jquery",
+    image: "/images/jq.png",
+    percent: "45%",
+  },
 
   {
     id: 10,
     title: "PHP",
     image: "/images/php.png",
-    percent: "70%",
+    percent: "60%",
   },
   {
     id: 11,
@@ -351,20 +350,20 @@ export const skillsData = [
     id: 16,
     title: "Git",
     image: "/images/git.png",
-    percent: "40%",
+    percent: "50%",
   },
   {
     id: 17,
-    title: "Python",
-    image: "/images/SKILL/IMG/PYTHON.png",
+    title: "Java",
+    image: "/images/SKILL/IMG/JAVA.png",
     percent: "42%",
   },
-  // {
-  //   id: 19,
-  //   title: "Wordpress",
-  //   image: "/images/SKILL/IMG/WORDPRESS.png",
-  //   percent: "29%",
-  // },
+  {
+    id: 19,
+    title: "Wordpress",
+    image: "/images/SKILL/IMG/WORDPRESS.png",
+    percent: "40%",
+  },
   {
     id: 20,
     title: "Sql Server",

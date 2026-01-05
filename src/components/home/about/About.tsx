@@ -19,7 +19,7 @@ export default function AboutMe() {
     },
     {
       label: "Experience",
-      values: ["Graphic Design", "Administration"],
+      values: ["Graphic Design", "Administration","web deverlper Intern"],
       icon: <FaBriefcase className="text-green-400" />,
     },
     {
@@ -71,8 +71,11 @@ export default function AboutMe() {
             <li>Graduated frontend course at Master IT Siem Reap (3 months)</li>
 
             <li>
-              Graduated backend course at Next Level PHP, Laravel, MySQL (3
+              Graduated backend course at Master IT Siem Reap PHP, Laravel, MySQL (6
               months)
+            </li>
+            <li>
+              Complete Internship as Web dev (3 month)
             </li>
           </ul>
         </div>
